@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5EDA02017E3E1287399076C /* JPCanvasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5EDACA8890B34807C2B0437 /* JPCanvasTests.m */; };
+		A5EDA15BDD63785B386CAA00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5EDAC70DE83CC2D834B4149 /* main.m */; };
+		A5EDA2049EA891BE7C882E0C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5EDAA1541D6215E37A1CF70 /* InfoPlist.strings */; };
+		A5EDA5B430D63C5EE99830F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5EDAE13C88A588DC3F95FCA /* Foundation.framework */; };
+		A5EDA5E8436C8D7C0044DB36 /* JPCanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = A5EDA80D8280BC9C2755EB09 /* JPCanvas.m */; };
+		A5EDA85FC9B3B621F8D99682 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5EDA66B74BDEA4D941D0645 /* CoreGraphics.framework */; };
+		A5EDA8F802776B071E481DFF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5EDA3506DC90CDED2CB4C44 /* UIKit.framework */; };
+		A5EDA9AC7B35EBC5147017CB /* JPView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5EDA25F9193B1F0A19D7900 /* JPView.m */; };
+		A5EDA9D2C964921513F08E5C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5EDADAED0A27F35AC4056D7 /* Images.xcassets */; };
+		A5EDAA8E4858AA538EB9BAA1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5EDA692F90CFF272E6A422D /* XCTest.framework */; };
+		A5EDAAD40EECE322CE517773 /* JPCanvas+JPDrawingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A5EDABA1E62B93DFF6F73967 /* JPCanvas+JPDrawingAdditions.m */; };
+		A5EDAB0AAA89A434484C8CF8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5EDA246BCDE6D340B93EC83 /* InfoPlist.strings */; };
+		A5EDABD056EF84EDC92033EA /* JPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5EDA118C7A0500539154C1C /* JPViewController.m */; };
+		A5EDABF270EE0386089C008C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5EDAE13C88A588DC3F95FCA /* Foundation.framework */; };
+		A5EDAC91D90C119A5A9453C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5EDA3506DC90CDED2CB4C44 /* UIKit.framework */; };
+		A5EDAFBEA05CBFCBB2937326 /* JPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5EDA39459B7162CBD0103C8 /* JPAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5EDAE52052B60D27E93955D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5EDA3F94E1FB814ADC4F4D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5EDA165AD6C3116C432E978;
+			remoteInfo = JPCanvas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5EDA118C7A0500539154C1C /* JPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPViewController.m; sourceTree = "<group>"; };
+		A5EDA122A823D45E119EDF71 /* JPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPViewController.h; sourceTree = "<group>"; };
+		A5EDA25F9193B1F0A19D7900 /* JPView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPView.m; sourceTree = "<group>"; };
+		A5EDA27F83EE4D59B3989E90 /* JPCanvasTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "JPCanvasTests-Info.plist"; sourceTree = "<group>"; };
+		A5EDA2DE54A9FE04A51E8E93 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A5EDA3506DC90CDED2CB4C44 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A5EDA3512B5A2C5F637C98FB /* JPCanvas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JPCanvas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5EDA37205778E18E4D7D7C8 /* JPCanvas-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "JPCanvas-Info.plist"; sourceTree = "<group>"; };
+		A5EDA39459B7162CBD0103C8 /* JPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPAppDelegate.m; sourceTree = "<group>"; };
+		A5EDA4FF6A65CF6949534148 /* JPCanvasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JPCanvasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5EDA5A66CAE7DF4F50F0D17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A5EDA5D720139101DFDF0D94 /* JPView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPView.h; sourceTree = "<group>"; };
+		A5EDA66B74BDEA4D941D0645 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A5EDA692F90CFF272E6A422D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A5EDA80D8280BC9C2755EB09 /* JPCanvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCanvas.m; sourceTree = "<group>"; };
+		A5EDABA1E62B93DFF6F73967 /* JPCanvas+JPDrawingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JPCanvas+JPDrawingAdditions.m"; sourceTree = "<group>"; };
+		A5EDAC69487002C0AE209329 /* JPCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCanvas.h; sourceTree = "<group>"; };
+		A5EDAC70DE83CC2D834B4149 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5EDACA8890B34807C2B0437 /* JPCanvasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPCanvasTests.m; sourceTree = "<group>"; };
+		A5EDACEE23792D53EED12F63 /* JPCanvas-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JPCanvas-Prefix.pch"; sourceTree = "<group>"; };
+		A5EDAD908389CB2A6F324222 /* JPCanvas+JPDrawingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JPCanvas+JPDrawingAdditions.h"; sourceTree = "<group>"; };
+		A5EDADAED0A27F35AC4056D7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images.xcassets; sourceTree = "<group>"; };
+		A5EDAE13C88A588DC3F95FCA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A5EDAFDF4923FE4F08506566 /* JPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPAppDelegate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5EDA42ED88ED295E9A28AF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5EDAA8E4858AA538EB9BAA1 /* XCTest.framework in Frameworks */,
+				A5EDA5B430D63C5EE99830F7 /* Foundation.framework in Frameworks */,
+				A5EDA8F802776B071E481DFF /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5EDAD026D1026EE2FD15666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5EDABF270EE0386089C008C /* Foundation.framework in Frameworks */,
+				A5EDA85FC9B3B621F8D99682 /* CoreGraphics.framework in Frameworks */,
+				A5EDAC91D90C119A5A9453C2 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5EDA28BD56C5C9FCCBF8232 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				A5EDABA1E62B93DFF6F73967 /* JPCanvas+JPDrawingAdditions.m */,
+				A5EDAD908389CB2A6F324222 /* JPCanvas+JPDrawingAdditions.h */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		A5EDA393D42B51363CCA0254 /* JPCanvasTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5EDAEF22ED7BD86FECC408C /* Supporting Files */,
+				A5EDACA8890B34807C2B0437 /* JPCanvasTests.m */,
+			);
+			path = JPCanvasTests;
+			sourceTree = "<group>";
+		};
+		A5EDA3C9024F2104F799EE4C /* JPCanvas */ = {
+			isa = PBXGroup;
+			children = (
+				A5EDA83AD24D5707CEC69C3B /* Supporting Files */,
+				A5EDAFDF4923FE4F08506566 /* JPAppDelegate.h */,
+				A5EDA39459B7162CBD0103C8 /* JPAppDelegate.m */,
+				A5EDADAED0A27F35AC4056D7 /* Images.xcassets */,
+				A5EDA122A823D45E119EDF71 /* JPViewController.h */,
+				A5EDA118C7A0500539154C1C /* JPViewController.m */,
+				A5EDA25F9193B1F0A19D7900 /* JPView.m */,
+				A5EDA5D720139101DFDF0D94 /* JPView.h */,
+				A5EDA948A472CFD09EC7208F /* JPCanvas */,
+			);
+			path = JPCanvas;
+			sourceTree = "<group>";
+		};
+		A5EDA575D07508B3076D1481 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5EDAE13C88A588DC3F95FCA /* Foundation.framework */,
+				A5EDA66B74BDEA4D941D0645 /* CoreGraphics.framework */,
+				A5EDA3506DC90CDED2CB4C44 /* UIKit.framework */,
+				A5EDA692F90CFF272E6A422D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5EDA83AD24D5707CEC69C3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5EDA37205778E18E4D7D7C8 /* JPCanvas-Info.plist */,
+				A5EDAA1541D6215E37A1CF70 /* InfoPlist.strings */,
+				A5EDAC70DE83CC2D834B4149 /* main.m */,
+				A5EDACEE23792D53EED12F63 /* JPCanvas-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5EDA948A472CFD09EC7208F /* JPCanvas */ = {
+			isa = PBXGroup;
+			children = (
+				A5EDA80D8280BC9C2755EB09 /* JPCanvas.m */,
+				A5EDAC69487002C0AE209329 /* JPCanvas.h */,
+				A5EDA28BD56C5C9FCCBF8232 /* Additions */,
+			);
+			path = JPCanvas;
+			sourceTree = "<group>";
+		};
+		A5EDACAE62DB80183224800C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5EDA3512B5A2C5F637C98FB /* JPCanvas.app */,
+				A5EDA4FF6A65CF6949534148 /* JPCanvasTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5EDAD87F3AF8E3DF7B34CAC = {
+			isa = PBXGroup;
+			children = (
+				A5EDACAE62DB80183224800C /* Products */,
+				A5EDA575D07508B3076D1481 /* Frameworks */,
+				A5EDA3C9024F2104F799EE4C /* JPCanvas */,
+				A5EDA393D42B51363CCA0254 /* JPCanvasTests */,
+			);
+			sourceTree = "<group>";
+		};
+		A5EDAEF22ED7BD86FECC408C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5EDA27F83EE4D59B3989E90 /* JPCanvasTests-Info.plist */,
+				A5EDA246BCDE6D340B93EC83 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5EDA165AD6C3116C432E978 /* JPCanvas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5EDAB43CE471CE05B571C02 /* Build configuration list for PBXNativeTarget "JPCanvas" */;
+			buildPhases = (
+				A5EDAB40135341587D805699 /* Sources */,
+				A5EDAD026D1026EE2FD15666 /* Frameworks */,
+				A5EDA79D98CD86FBF2174E38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JPCanvas;
+			productName = JPCanvas;
+			productReference = A5EDA3512B5A2C5F637C98FB /* JPCanvas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5EDA64EC193C11809B35494 /* JPCanvasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5EDAB773B34245493306EC7 /* Build configuration list for PBXNativeTarget "JPCanvasTests" */;
+			buildPhases = (
+				A5EDAB78F0971E02328A8A3C /* Sources */,
+				A5EDA42ED88ED295E9A28AF2 /* Frameworks */,
+				A5EDA58D5D101C130F9CF5AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5EDA091DC3C5288E3CE98EB /* PBXTargetDependency */,
+			);
+			name = JPCanvasTests;
+			productName = JPCanvasTests;
+			productReference = A5EDA4FF6A65CF6949534148 /* JPCanvasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5EDA3F94E1FB814ADC4F4D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = JP;
+			};
+			buildConfigurationList = A5EDA1F42192C1D9FC473ED9 /* Build configuration list for PBXProject "JPCanvas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A5EDAD87F3AF8E3DF7B34CAC;
+			productRefGroup = A5EDACAE62DB80183224800C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5EDA165AD6C3116C432E978 /* JPCanvas */,
+				A5EDA64EC193C11809B35494 /* JPCanvasTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5EDA58D5D101C130F9CF5AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5EDAB0AAA89A434484C8CF8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5EDA79D98CD86FBF2174E38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5EDA2049EA891BE7C882E0C /* InfoPlist.strings in Resources */,
+				A5EDA9D2C964921513F08E5C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5EDAB40135341587D805699 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5EDA15BDD63785B386CAA00 /* main.m in Sources */,
+				A5EDAFBEA05CBFCBB2937326 /* JPAppDelegate.m in Sources */,
+				A5EDABD056EF84EDC92033EA /* JPViewController.m in Sources */,
+				A5EDA9AC7B35EBC5147017CB /* JPView.m in Sources */,
+				A5EDA5E8436C8D7C0044DB36 /* JPCanvas.m in Sources */,
+				A5EDAAD40EECE322CE517773 /* JPCanvas+JPDrawingAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5EDAB78F0971E02328A8A3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5EDA02017E3E1287399076C /* JPCanvasTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5EDA091DC3C5288E3CE98EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5EDA165AD6C3116C432E978 /* JPCanvas */;
+			targetProxy = A5EDAE52052B60D27E93955D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5EDA246BCDE6D340B93EC83 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5EDA2DE54A9FE04A51E8E93 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A5EDAA1541D6215E37A1CF70 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5EDA5A66CAE7DF4F50F0D17 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5EDA316D4484A5CE9F9EFD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JPCanvas/JPCanvas-Prefix.pch";
+				INFOPLIST_FILE = "JPCanvasTests/JPCanvasTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A5EDA427F8657FC62FC0A3E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JPCanvas/JPCanvas-Prefix.pch";
+				INFOPLIST_FILE = "JPCanvas/JPCanvas-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A5EDAD7DAB21B8E0D200F114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5EDAE78891B57B43E1446AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5EDAF2F766F5408CA825E45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JPCanvas/JPCanvas-Prefix.pch";
+				INFOPLIST_FILE = "JPCanvasTests/JPCanvasTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		A5EDAF933E4481BBDE728A10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JPCanvas/JPCanvas-Prefix.pch";
+				INFOPLIST_FILE = "JPCanvas/JPCanvas-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5EDA1F42192C1D9FC473ED9 /* Build configuration list for PBXProject "JPCanvas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5EDAD7DAB21B8E0D200F114 /* Release */,
+				A5EDAE78891B57B43E1446AE /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5EDAB43CE471CE05B571C02 /* Build configuration list for PBXNativeTarget "JPCanvas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5EDA427F8657FC62FC0A3E6 /* Release */,
+				A5EDAF933E4481BBDE728A10 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5EDAB773B34245493306EC7 /* Build configuration list for PBXNativeTarget "JPCanvasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5EDAF2F766F5408CA825E45 /* Release */,
+				A5EDA316D4484A5CE9F9EFD6 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5EDA3F94E1FB814ADC4F4D2 /* Project object */;
+}
